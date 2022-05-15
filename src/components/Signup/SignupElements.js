@@ -6,27 +6,32 @@ export const SignupContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #1b8541;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 700px;
   }
 `;
 
 export const FormGroup = styled.div`
-	color: green;
+	color: white;
     display: block;
 	width: 400px;
 	margin: 20px auto;
+  
+  @media screen and (max-width: 480px) {   
+    width: 350px;
+  }
 `;
 
 export const Label = styled.label`
 	margin-bottom: 0.5em;
-	color: green;
+	color: white;
+  font-size: 1.1rem;
     display: block;
 `;
 
@@ -58,6 +63,7 @@ styled.textarea`
 
 export const Message = styled.label`
 	margin-bottom: 0.5em;
+  font-size: 14px;
 	color: green;
     display: block;
 `;
@@ -65,24 +71,24 @@ export const Message = styled.label`
 export const FormButton = styled.button`
   background: transparent;
   border-radius: 3px;
-  border: 5px solid green;
-  color: green;
+  border: 5px solid black;
+  color: black;
   margin: 0.5em 1em;
   padding: 0.25em 1em;
   cursor: pointer;
 
   ${props => props.primary && css`
-    background: green;
+    background: black;
     color: white;
   `}
 `;
 
 export const ContactH1 = styled.h1`
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fff;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 `;

@@ -6,8 +6,11 @@ export const homeObjOne = {
   topLine: 'FREIGHT DISPATCHING SERVICES',
   headline: 'About Us',
   description:
-    'We focus on providing dispatch services to new and seasoned owners/operators with analytical load planning being the most important aspect of the services we offer. \n We represent you and always think about the best interest of your business with every decision that we make. Let us take care of finding loads and managing the back office tasks while you focus on the road.',
-  buttonLabel: 'Get Started',
+    'Focus, that’s what we’re about. We take everything except the load (and truck of course) off your hands so that you can focus.',
+  line2:'PATHS LOGISTICS prides itself on decades of industry experience coupled with the perfect tandem of priceless expertise and a new innovative approach to the logistics industry. All clients are granted 24 hour access to our dispatchers, we guarantee that you can rely on us!  Our dedicated staff puts communication and quality customer service first, assuring our clients ultimate confidence in every aspect.',
+  line3:'We are committed to building long-term relationships with every single client. Solutions, unorthodox methods, and dedication to each individual client is our daily practice. We’re here because we care.   You are our priority, day in and day out',
+  line4:'',
+    buttonLabel: 'Get Started',
   imgStart: false,
   img: require('../../images/trucksOnHighway.jpg'),
   alt: 'TrucksOnHighway',
@@ -22,10 +25,15 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'What we do',
-  headline: 'We handle trucking logistics',
+  headline: 'Every Day is different',
   description:
-    'We provide the transportation solutions you need to support your growing business.',
-  buttonLabel: 'Learn More',
+    'PATHS LOGISTICS assesses every individual situation with precision and care. We’ve Curated a process of flawless communication and execution of tasks to assure we deliver only pristine opportunities to our clients.',
+  line2:'PATHS LOGISTICS HAPPILY COMPLETES CARRIER PACKETS AND ALL BACK OFFICE PAPER WORK IN ADDITION TO:',
+  line3:'- CONTRACT REVISION AND SIGNING',
+  line4:'- EXTENSIVE CREDIT CHECKS ON EVERY BROKER',
+  line5:'- STRATEGIC PLOTTING OF ROUTES',
+  line6:'- LOAD BOOKING AND METICULOUS RATE NEGOTIATION ',
+    buttonLabel: 'Learn More',
   imgStart: true,
   img: require('../../images/semiTrucks.jpg'),
   alt: 'SemiTrucks',
@@ -36,20 +44,20 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: 'signup',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: 'PATHS Logistics',
-  headline: 'Let\'s grow your trucking business',
+  headline: 'Contact',
   description:
-    "Ready to grow your business? We take great pride in building a solid repor and trust with our drivers and it’s one of the reasons we’re experiencing rapid growth.",
+    'Begin your PATH to well oiled logistics in your business. We are happy to be of service to each of our drivers with precision and dedication. Contact us or let us know the best way and time to contact you.',
   buttonLabel: 'Start Now',
   imgStart: false,
   img: require('../../images/truckConsultation.jpeg'),
   alt: 'AccountCreate',
-  dark: false,
-  primary: false,
-  darkText: true
+  dark: true,
+  primary: true,
+  darkText: false
 };
 
 // export const homeObjFour = {

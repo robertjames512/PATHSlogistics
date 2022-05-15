@@ -26,8 +26,8 @@ function HeroSection() {
         <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>WE HANDLE THE LOGISTICS,</HeroH1>
-        <HeroH1>YOU FOCUS ON THE ROAD.</HeroH1>
+        <HeroH1>THE PATH OF LEAST RESISTANCE.</HeroH1>
+        <HeroH1>WE’RE HERE BECAUSE WE CARE.</HeroH1>
         <HeroBtnWrapper>
           <Button
             to='signup'

@@ -7,6 +7,7 @@ import {
   SidebarMenu,
   SidebarLink,
   SidebarRoute,
+  SidebarBtnLink,
   SideBtnWrap
 } from './SidebarElements';
 
@@ -51,20 +52,17 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             Services
           </SidebarLink>
-          <SidebarLink
-            to='signup'
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={-80}
-          >
-            Sign Up
-          </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/signin'>Sign In</SidebarRoute>
+          <SidebarBtnLink 
+          to='contact'
+          onClick={toggle}
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact='true'
+          offset={-80}
+          >Let's Grow Your Trucking Business</SidebarBtnLink>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

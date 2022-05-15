@@ -14,14 +14,14 @@ const handleSubmit = e => {
     var message = name + " has an inquiry: \n" + document.getElementById("message").value
 
     console.log(document.getElementById("name").value);
-    window.open('mailto:test@example.com?subject=' + subject + '&body=' + message );
+    window.open('mailto:Support@pathslogistics.com?subject=' + subject + '&body=' + message );
 
   };
 
 const Signup = () => {
   return (
     <SignupContainer id='contact'>
-    <ContactH1>Contact Us</ContactH1>
+    <ContactH1>Contact Us at Support@pathslogistics.com</ContactH1>
     <FormGroup>
       <Label htmlFor="name">Name</Label>
       <Input id="name" />

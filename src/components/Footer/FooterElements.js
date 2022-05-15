@@ -83,6 +83,18 @@ export const SocialMediaWrap = styled.div`
   }
 `;
 
+export const SloganWrap = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0px auto 0 auto;
+
+  @media screen and (max-width: 820px) {
+    flex-direction: column;
+  }
+`;
+
 export const SocialLogo = styled(Link)`
   color: #fff;
   justify-self: start;
@@ -98,6 +110,19 @@ export const SocialLogo = styled(Link)`
 export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
+`;
+
+export const WebsiteSlogan = styled.small`
+  color: #fff;
+  display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1100px;
+margin: 40px auto 0 auto;
+
+@media screen and (max-width: 820px) {
+  flex-direction: column;
+}
 `;
 
 export const SocialIcons = styled.div`
