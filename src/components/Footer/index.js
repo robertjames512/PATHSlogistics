@@ -50,7 +50,7 @@ const Footer = () => {
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink
-                href='//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                href='/'
                 target='_blank'
                 aria-label='Youtube'
                 rel='noopener noreferrer'
@@ -60,7 +60,7 @@ const Footer = () => {
               <SocialIconLink
                 target='_blank'
                 aria-label='Twitter'
-                href='//www.twitter.com/briandesignz'
+                href='/'
               >
                 <FaTwitter />
               </SocialIconLink>
