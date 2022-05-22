@@ -43,29 +43,11 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>Paths Logistics © 2022 All rights reserved.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+              <SocialIconLink href='https://m.facebook.com/Pathslogisticsofficial/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
               <SocialIconLink href='https://instagram.com/pathslogistics?igshid=YmMyMTA2M2Y=' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
-              </SocialIconLink>
-              <SocialIconLink
-                href='/'
-                target='_blank'
-                aria-label='Youtube'
-                rel='noopener noreferrer'
-              >
-                <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink
-                target='_blank'
-                aria-label='Twitter'
-                href='/'
-              >
-                <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
-                <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
