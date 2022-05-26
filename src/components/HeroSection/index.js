@@ -9,6 +9,7 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
+  SubHero,
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight
@@ -26,8 +27,8 @@ function HeroSection() {
         <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>THE PATH OF LEAST RESISTANCE.</HeroH1>
-        <HeroH1>WE’RE HERE BECAUSE WE CARE.</HeroH1>
+        <HeroH1>THE PATH OF LEAST RESISTANCE</HeroH1>
+        <SubHero>WE’RE HERE BECAUSE WE CARE</SubHero>
         <HeroBtnWrapper>
           <Button
             to='signup'

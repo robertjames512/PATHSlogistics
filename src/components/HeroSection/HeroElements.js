@@ -79,6 +79,20 @@ export const HeroH1 = styled.h1`
   }
 `;
 
+export const SubHero = styled.h1`
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 28px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+  }
+`;
+
 export const HeroP = styled.p`
   margin-top: 24px;
   color: #fff;

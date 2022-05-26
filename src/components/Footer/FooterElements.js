@@ -95,6 +95,10 @@ export const SloganWrap = styled.div`
   }
 `;
 
+export const SocialSpacing = styled.div`
+color: #190340;
+`
+
 export const SocialLogo = styled(Link)`
   color: #fff;
   justify-self: start;

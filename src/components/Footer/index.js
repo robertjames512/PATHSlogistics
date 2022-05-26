@@ -18,6 +18,7 @@ import {
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
+  SocialSpacing,
   WebsiteRights,
   WebsiteSlogan,
   SloganWrap,
@@ -46,6 +47,7 @@ const Footer = () => {
               <SocialIconLink href='https://www.facebook.com/pathslogistics' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
+              <SocialSpacing>.      .</SocialSpacing>
               <SocialIconLink href='https://instagram.com/pathslogistics?igshid=YmMyMTA2M2Y=' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
